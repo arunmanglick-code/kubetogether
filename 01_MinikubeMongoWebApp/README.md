@@ -12,7 +12,7 @@
     minikube start --vm-driver=hyperkit 
     minikube status
 
-##### get minikube node's ip address
+##### get minikube node's ip addresss
     minikube ip
 
 ##### get basic info about k8s components
