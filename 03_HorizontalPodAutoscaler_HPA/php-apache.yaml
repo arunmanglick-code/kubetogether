@@ -1,15 +1,15 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: php-apache
+  name: php-apache-HPA
 spec:
   selector:
     matchLabels:
-      run: php-apache
+      run: php-apache-HPA
   template:
     metadata:
       labels:
-        run: php-apache
+        run: php-apache-HPA
     spec:
       containers:
       - name: php-apache-HPA
